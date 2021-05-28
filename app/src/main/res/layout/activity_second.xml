@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Clothes Preview"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/judul2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:layout_marginTop="40dp"
+        android:textSize="29sp"
+        android:textColor="#000000"
+        android:text="Type: "
+        />
+
+    <TextView
+        android:id="@+id/tipe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:layout_toRightOf="@id/tip"
+        android:layout_marginTop="40dp"
+        android:textSize="29sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/war"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip"
+        android:layout_marginTop="25dp"
+        android:textSize="29sp"
+        android:textColor="#000000"
+        android:text="Color: "
+        />
+
+    <TextView
+        android:id="@+id/warna2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tipe2"
+        android:layout_toRightOf="@id/war"
+        android:layout_marginTop="25dp"
+        android:textSize="29sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:id="@+id/uk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/war"
+        android:layout_marginTop="25dp"
+        android:textSize="29sp"
+        android:textColor="#000000"
+        android:text="Size: "
+        />
+
+    <TextView
+        android:id="@+id/ukuran2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/warna2"
+        android:layout_toRightOf="@id/uk"
+        android:layout_marginTop="25dp"
+        android:textSize="29sp"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ukuran2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttontwo"
+        android:text="Save Customization"
+        android:textAllCaps="false"
+        android:textSize="29dp"
+        android:textColor="#FFFFFF"
+        android:onClick="savee"/>
+
+
+
+
+
+</RelativeLayout>
